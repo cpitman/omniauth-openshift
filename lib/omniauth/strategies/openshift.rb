@@ -7,8 +7,6 @@ module OmniAuth
 
       option :client_options, {
         site: "https://10.1.2.2:8443/", 
-        token_url: '/auth/token', 
-        authorize_url: '/oauth/authorize'
       }
 
       # These are called after authentication has succeeded. If
