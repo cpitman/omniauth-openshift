@@ -20,7 +20,7 @@ module OmniAuth
 
       def raw_info
         @raw_info ||= begin
-          JSON.parse access_token.get("https://10.1.2.2:8443/oapi/v1/users/~").body
+          JSON.parse access_token.get('/oapi/v1/users/~').body
         end
       end
       
